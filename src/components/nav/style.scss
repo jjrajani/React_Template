@@ -1,3 +1,5 @@
+$link-blue: #61DAFB;
+
 .links {
   display: flex;
   justify-content: center;
@@ -14,7 +16,7 @@
       border-left: none;
     }
     a {
-      color: #61DAFB;
+      color: $link-blue;
       text-decoration: none;
     }
   }

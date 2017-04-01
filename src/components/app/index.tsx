@@ -6,10 +6,7 @@ class App extends React.Component<{}, {}> {
   render() {
     return (
       <div className="app">
-        <Header />
-        <p className="app-intro">
-          To get started, edit <code>src/components/index.tsx</code> and save to reload.
-        </p>
+        <Header title={"React template Pre-packed with..."}/>
         {this.props.children}
       </div>
     );
